@@ -20,7 +20,7 @@
     "test:e2e": "pnpm run --filter='./e2e' test"
   },
   "license": "MIT",
-  "packageManager": "pnpm@8.15.6",
+  "packageManager": "pnpm@8.15.8",
   "devDependencies": {
     "@blitz/eslint-plugin": "0.1.2",
     "@commitlint/config-conventional": "^19.2.2",
@@ -49,7 +49,7 @@
   },
   "engines": {
     "node": ">=18.18.0",
-    "pnpm": "8.15.6"
+    "pnpm": "8.15.8"
   },
   "resolutions": {
     "@typescript-eslint/utils": "^8.0.0-alpha.30"
