@@ -1,23 +1,14 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="media/logo-white.svg">
-    <img src="media/logo.svg" alt="tutorialkit-logo" width="440px" height="120px" />
+    <img src="/docs/demo/public/logo.svg" alt="tutorialkit-logo" width="440px" height="120px" />
   </picture>
-  <br>
-  TutorialKit by <a href="https://stackblitz.com">StackBlitz</a> enables you to create interactive coding tutorials effortlessly, boosting the adoption of
-  your framework, UI library or design system.
+  <br/>
+  <br/>
+  Welcome to Mina Playground, an innovative interactive learning platform that allows you to follow step-by-step tutorials, run zkApps and Smart Contracts directly in your browser, and even manage and deploy projects online. Whether you're new to Mina or an experienced developer, this platform provides an immersive environment to enhance your skills and understanding of Mina's ecosystem.
 </p>
 
 <p align="center">
-  <a href="https://tutorialkit.dev/"><strong>tutorialkit.dev</strong></a>
-  <br>
-</p>
-
-<p align="center">
-  <a href="https://tutorialkit.dev/guides/about/#getting-started">Get Started</a>
-  ·
-  <a href="https://demo.tutorialkit.dev/">Try Demo</a>
-  <br>
+  <a href="https://minaplayground.com/"><strong>minaplayground.com</strong></a>
   <br>
 </p>
 
@@ -25,7 +16,7 @@
 
 ## Documentation
 
-Read our documentation on [tutorialkit.dev](https://tutorialkit.dev/guides/about)
+TBD
 
 ## Development Setup
 
@@ -42,6 +33,6 @@ See [Contributing Guide](./CONTRIBUTING.md).
 
 Come and say hi :wave:!
 
-- [X](https://x.com/stackblitz)
-- [Discord](https://discord.gg/stackblitz)
-- [GitHub](https://github.com/stackblitz)
+- [X](https://x.com/MinaPlayground)
+- [Discord](https://discord.com/invite/PmFq7jYPVP)
+- [GitHub](https://github.com/MinaPlayground)
