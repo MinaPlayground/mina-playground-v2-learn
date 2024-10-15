@@ -14,10 +14,10 @@ function initStore() {
   if (!import.meta.env.SSR) {
     const themeAttribute = document.querySelector('html')?.getAttribute('data-theme');
 
-    return (themeAttribute as Theme) ?? 'light';
+    return (themeAttribute as Theme) ?? 'dark';
   }
 
-  return 'light';
+  return 'dark';
 }
 
 export function toggleTheme() {
