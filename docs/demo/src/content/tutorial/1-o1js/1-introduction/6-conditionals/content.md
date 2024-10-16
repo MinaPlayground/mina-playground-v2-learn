@@ -28,7 +28,7 @@ const x = Provable.if(new Bool(foo), a, b); // behaves like `foo ? a : b`
 Add the `o1js` built-in `Provable.if()` method:
 
 ```ts add={1}
-const x = Provable.if(new Bool(foo), a, b);
+const x = Provable.if(new Bool(isTrue), a, b);
 ```
 
 Log the result of the ternary operator, which should now be `1`:
@@ -37,13 +37,20 @@ Log the result of the ternary operator, which should now be `1`:
 Provable.log("x is now:", x)
 ```
 
-Set the Bool value of the variable `foo` to `false`:
+Now build and run the script in the terminal:
 
-```ts add={1}
-const foo = Bool(false);
+```bash
+npm run build && node build/src/index.js
 ```
 
-The result of the ternary operator should now be `2`.
+The result of the ternary operator should now be `1`.
+
+
+Set the Bool value of the variable `isTrue` to `false`:
+
+```ts
+const isTrue = Bool(false);
+```
 
 Now build and run the script in the terminal:
 
@@ -51,9 +58,4 @@ Now build and run the script in the terminal:
 npm run build && node build/src/index.js
 ```
 
-This will log the following:
-
-```bash
-y is: 4
-y is equal to 4: true
-```
+The result of the ternary operator should now be `2`.

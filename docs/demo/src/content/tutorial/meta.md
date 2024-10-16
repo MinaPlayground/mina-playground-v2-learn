@@ -3,5 +3,5 @@ type: tutorial
 template: smart-contract
 prepareCommands:
 - ['npm install', 'Installing dependencies']
-editPageLink: https://github.com/stackblitz/tutorialkit/blob/main/docs/demo/src/content/tutorial/${path}?plain=1
+editPageLink: https://github.com/MinaPlayground/mina-playground-v2-learn/tree/main/docs/demo/src/content/tutorial/${path}?plain=1
 ---
